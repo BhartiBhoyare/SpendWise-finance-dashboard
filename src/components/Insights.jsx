@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import { TrendingUp, Wallet, BarChart3, IndianRupee } from "lucide-react";
 import { AreaChart, Area, ResponsiveContainer } from "recharts";
-import { useNavigate } from "react-router-dom";
 import * as Recharts from "recharts";
 
 export default function Insights() {

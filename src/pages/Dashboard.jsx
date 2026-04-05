@@ -106,8 +106,8 @@ export default function Dashboard() {
             </div>
           )}
 
-          <div className="flex-1 p-4 space-y-6">
-            <div className="flex justify-between items-center">
+          <div className="flex-1 p-4">
+            <div className="flex justify-between mb-6 items-center">
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setSidebarOpen(true)}
@@ -134,7 +134,7 @@ export default function Dashboard() {
               </div>
             </div>
             {activePage !== "settings" && (
-              <div className="flex flex-col gap-3 items-start md:items-center xl:flex-row justify-between">
+              <div className="flex flex-col gap-3 mb-6 items-start md:items-center xl:flex-row justify-between">
                 <div className="flex gap-2 w-3/5">
                   {["monthly", "yearly", "lifetime", "custom"].map((type) => (
                     <button

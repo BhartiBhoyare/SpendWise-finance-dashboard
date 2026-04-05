@@ -35,7 +35,7 @@ const Card = ({ title, value }) => (
     animate={{ opacity: 1, y: 0 }}
     whileHover={{ scale: 1.04 }}
     transition={{ duration: 0.3 }}
-    className="bg-white/70 dark:bg-gray-800/70 backdrop-blur p-5 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-sm"
+    className="bg-white/70 dark:bg-gray-800/70 backdrop-blur p-5 mb-6 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-sm"
   >
     <div className="hover:-translate-y-1 rounded-2xl p-1 hover:shadow-lg transition duration-300">
       <p className="text-gray-500 dark:text-gray-300 font-bold text-lg mb-1">

@@ -2,7 +2,7 @@ export default function ConfirmModal({ isOpen, onClose, onConfirm }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+    <div className="absolute inset-0 space-y-0 bg-black/50 flex items-center justify-center z-50">
       <div className="bg-white dark:bg-gray-900 rounded-xl p-6 w-[90%] max-w-sm shadow-lg">
 
         <h2 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">

@@ -123,5 +123,5 @@ The project follows a **component-based architecture** using React.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/SpendWise-finance-dashboard.git
+git clone https://github.com/BhartiBhoyare/SpendWise-finance-dashboard
 cd SpendWise-finance-dashboard

@@ -20,11 +20,4 @@ export const transactionsData = [
     category: "Travel",
     type: "expense",
   },
-  {
-    id: 4,
-    date: "2026-04-05",
-    amount: 50000,
-    category: "Salary",
-    type: "income",
-  },
 ];

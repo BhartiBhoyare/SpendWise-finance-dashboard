@@ -131,7 +131,7 @@ export default function Insights() {
           <Card title="Trend" value="Growing" icon={<TrendingUp />} />
         </div>
       </div>
-      <div className="grid xl:grid-cols-3 gap-5">
+      <div className="grid xl:grid-cols-3 mt-6 gap-5">
         <div className="bg-white dark:bg-gray-800 p-5 rounded-2xl shadow hover:shadow-xl transition">
           <p className="text-sm text-gray-500 mb-3">Income vs Expense</p>
 

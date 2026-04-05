@@ -7,7 +7,7 @@ It helps users manage their income and expenses, visualize financial data, and g
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed link here)
+👉 https://spend-wise-finance-dashboard.vercel.app/
 
 ---
 

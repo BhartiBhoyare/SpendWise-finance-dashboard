@@ -10,7 +10,7 @@ export const transactionsData = [
     id: 2,
     date: "2026-04-02",
     amount: 200,
-    category: "Vegetables",
+    category: "Vegetable",
     type: "expense",
   },
   {

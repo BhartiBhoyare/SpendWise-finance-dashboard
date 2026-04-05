@@ -1,7 +1,7 @@
 export const transactionsData = [
   {
     id: 1,
-    date: "2026-03-05",
+    date: "2026-04-05",
     amount: 50000,
     category: "Salary",
     type: "income",

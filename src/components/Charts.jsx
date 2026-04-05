@@ -188,7 +188,7 @@ export default function Charts() {
                         className="w-3 h-3 rounded-full"
                         style={{ backgroundColor: generateColor(entry.name) }}
                       />
-                      <p className="text-sm text-gray-700 dark:text-gray-300">
+                      <p className="text-sm text-gray-700 dark:text-gray-300 w-[8ch] truncate">
                         {entry.name}
                       </p>
                     </div>

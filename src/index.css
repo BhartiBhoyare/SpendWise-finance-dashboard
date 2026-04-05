@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "tailwind-scrollbar";
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #9294fc, #ae8cfd);
+  border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4f46e5, #7c3aed);
+}
+
+.react-datepicker {
+  font-family: inherit;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.dark .react-datepicker {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.react-datepicker__header {
+  background-color: transparent;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dark .react-datepicker__header {
+  border-color: #374151;
+}
+
+.react-datepicker__day--selected {
+  background-color: #6366f1 !important;
+  color: white;
+}
+
+.react-datepicker__day:hover {
+  background-color: #e0e7ff;
+}
+
+.dark .react-datepicker__day:hover {
+  background-color: #4f46e5;
+}

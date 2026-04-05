@@ -116,7 +116,7 @@ export default function Insights() {
           </div>
         )}
 
-        <div className="grid grid-cols-2 xl:grid-cols-4 mb-6 gap-4">
+        <div className="grid grid-cols-2 xl:grid-cols-4 gap-4">
           <Card title="Top Category" value={topCategory} icon={<BarChart3 />} />
           <Card
             title="Transactions"
